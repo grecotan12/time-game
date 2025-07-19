@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f6e0b5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title,
+.sub-title {
+  color: #f6e0b5;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #66545e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title-background {
+  background-color: #aa6f73;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #66545e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sub-title {
+  color: #aa6f73;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 100%;
+  background-color: #a39193;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rule li,
+label,
+figcaption {
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #f6e0b5;
+}
+
+label {
+  color: #66545e;
+  display: inline;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+select {
+  background-color: beige;
+  display: inline-block;
+  width: fit-content;
+  color: #66545e;
+}
+
+.play-btn, .submit-btn {
+  color: beige !important;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: #aa6f73 !important;
+}
+
+.play-btn:hover, .submit-btn:hover {
+  background-color: #a39193 !important;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #aa6f73;
+  color: #fffbde;
+  font-family: "Poetsen One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.accordion-button.collapsed {
+  background: #129990;
+  color: #f6e0b5;
+  font-family: "Poetsen One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.accordion-body {
+  background-color: beige;
+}
+
+img {
+  filter: drop-shadow(16px 10px 4px #909090);
+}
+
+#male_toy_1 {
+  max-width: 65%;
+  max-height: 65%;
+}
+
+#male_toy_2 {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+#male_toy_3 {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+figcaption {
+  color: #aa6f73;
+}
+
+#stuff_1,
+#stuff_2,
+#stuff_3 {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #66545e;
+  border-radius: 50%;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background: beige;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 50%;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+  height: 6px;
+}
+.minute-hand {
+  height: 2px;
+}
+
+.number {
+  position: absolute;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.number1 {
+  top: 20%;
+  left: 85%;
+}
+.number2 {
+  top: 35%;
+  left: 92%;
+}
+.number3 {
+  top: 50%;
+  left: 97%;
+}
+.number4 {
+  top: 65%;
+  left: 92%;
+}
+.number5 {
+  top: 80%;
+  left: 85%;
+}
+.number6 {
+  top: 85%;
+  left: 50%;
+}
+.number7 {
+  top: 80%;
+  left: 15%;
+}
+.number8 {
+  top: 65%;
+  left: 8%;
+}
+.number9 {
+  top: 50%;
+  left: 3%;
+}
+.number10 {
+  top: 35%;
+  left: 8%;
+}
+.number11 {
+  top: 20%;
+  left: 15%;
+}
+.number12 {
+  top: 15%;
+  left: 50%;
+}
+
+.submit-btn {
+  font-size: 1rem;
 }
