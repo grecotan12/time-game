@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/time-game/static/css/main.da7973da.css",
+    "main.js": "/time-game/static/js/main.6e99ac8b.js",
+    "static/js/453.93e34976.chunk.js": "/time-game/static/js/453.93e34976.chunk.js",
+    "static/media/male_toy_3.png": "/time-game/static/media/male_toy_3.fa6e111cad8a749eb039.png",
+    "static/media/stuff_1.png": "/time-game/static/media/stuff_1.3f68cc995167b54c36e4.png",
+    "static/media/male_toy_1.png": "/time-game/static/media/male_toy_1.0b1bf288c1d48a85359e.png",
+    "static/media/stuff_3.png": "/time-game/static/media/stuff_3.127ba44dc5e1b4c88531.png",
+    "static/media/stuff_2.png": "/time-game/static/media/stuff_2.7d26a9de6728f1f7bb4a.png",
+    "static/media/male_toy_2.png": "/time-game/static/media/male_toy_2.dd4872cb2ab28cfc6586.png",
+    "index.html": "/time-game/index.html",
+    "main.da7973da.css.map": "/time-game/static/css/main.da7973da.css.map",
+    "main.6e99ac8b.js.map": "/time-game/static/js/main.6e99ac8b.js.map",
+    "453.93e34976.chunk.js.map": "/time-game/static/js/453.93e34976.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da7973da.css",
+    "static/js/main.6e99ac8b.js"
+  ]
+}
