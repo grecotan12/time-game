@@ -6,6 +6,7 @@ export const RuleScreen = () => {
 
     const handleSelectGender = (e) => {
         setGender(e.target.value);
+        console.log(e.target.value)
     }
 
     return (
@@ -14,19 +15,20 @@ export const RuleScreen = () => {
             <div className="card mt-3">
                 <div className="card-body">
                     <ul className="rule">
+                        <li className="mt-2">Choose your gender for type of rewards then click "Play"</li>
                         <li className="mt-2">Look at Analog Clock</li>
                         <li className="mt-2">Enter the digital time</li>
                         <li className="mt-2">Press/Enter to submit the answer</li>
                         <li className="mt-2">The minutes values are ony 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60</li>
                         <li className="mt-2">The hours values are only 1,2,3,4,5,6,7,8,9,10,12</li>
-                        <li className="mt-2">Keep an eyes out on the reward tab, it automatically claimed your reward when you reach your points</li>
+                        <li className="mt-2">If you get the correct answer, you will get a point, get up to 5,10,15 for your desired reward</li>
                     </ul>
                 </div>
             </div>
             <div className="container d-flex flex-column justify-content-center mt-3">
                 <label htmlForfor="gender">Your gender for rewards:
                     <select value={gender} onChange={handleSelectGender} className="m-3">
-                        <option selected>------</option>
+                        <option defaultValue=''>---</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                     </select>

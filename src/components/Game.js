@@ -20,8 +20,6 @@ export const Game = () => {
 
     const [hour, setHour] = useState(getRandomHour());
     const [min, setMin] = useState(minArray[getRandomMin()]);
-    console.log(hour);
-    console.log(min);
 
     const handleInputs = () => {
         const hourInput = Number(hourRef.current.value);
