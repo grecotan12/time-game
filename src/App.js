@@ -6,7 +6,7 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 
 export const App = () => {
   return (
-    <div className='d-flex flex-column min-vh-100'>
+    <div className='d-flex flex-column min-vh-100 app-style'>
       <Title />
       <div className='flex-grow-1'>
         <Switch>
