@@ -9,7 +9,7 @@ export const Game = () => {
     const [score, setScore] = useState(0);
     const hourRef = useRef(null);
     const minRef = useRef(null);
-    const minArray = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60];
+    const minArray = [0, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55];
     const getRandomMin = () => {
         return Math.floor(Math.random() * 11) + 0;
     }
